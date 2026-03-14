@@ -1,0 +1,32 @@
+html{
+    font-size: medium;
+    background-color: rgb(239, 235, 229);
+    margin-right: 4cm;
+    margin-left: 1cm;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font: 200;
+    font-weight: 1000;
+    color: brown;
+    font-size: xx-large;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+    border-bottom: 2px solid black;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 100;
+}
+#title{
+    color: cornflowerblue;
+}
+.content{
+    color: rgb(55, 96, 15);
+
+}
+#name{
+    font-size: x-large;
+    font-weight: 200;
+    
+}
