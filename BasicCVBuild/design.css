@@ -1,20 +1,32 @@
-html{
+html{ /* targets the html doc as a whole */
     font-size: medium;
     background-color: rgb(239, 235, 229);
     margin-right: 4cm;
     margin-left: 1cm;
 }
-.pfp{
+.pfp{ /* targets the image */
+    opacity: 0.9;
     float: right;
     border: 3px dotted black;
     margin: 2cm;
     transform: translate(-150px,-100px);
+    transition: opacity 0.15s;
+    box-shadow: 3px 3px 3px black;
     }
-#Edu{
+.pfp:hover{ /* targets the image when its hovered over */
+    opacity: 0.5;
+}
+.pfp:active{ /* targets the image when u click it */
+    opacity: 0.3;
+}
+#Edu{ 
     margin-left: 5px;
 }
 .sechead{
-    color: cornflowerblue;
+    color: rgb(0, 0, 0);
+    font-size: 150;
+    font-weight: 200;
+    font: 500;
 }
 .heading{
     font: 200;
@@ -27,16 +39,40 @@ html{
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font: 100;
 }
 .headr{
     color: rgb(81, 142, 21);
 }
 .thrhead{
-    color: rgb(137, 67, 42);
+    color: rgb(71, 70, 70);
+    font-size: 75;
 }
 #name{
     font-size: x-large;
     font-weight: 200;
     
+    
+}
+.button{
+    background-color: darkgreen;
+    color:azure;
+    box-shadow: inset;
+    transition: 0.15s;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    border: 1px solid black;
+    transition: box-shadow 0.15s;
+}
+.button:hover{
+    background-color: rgb(119, 170, 119);
+    color:black;
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+    
+}
+.button:active{
+    opacity:0.4;
+}
+.bodyp{
+    color: rgb(71, 70, 70);
+    font-size: 75;
 }

@@ -1,0 +1,27 @@
+.masthead{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 10px;
+    height: 56px;
+    width: 772px;
+    scrollbar-color: rgb(170,170,170);
+}
+.thumbnail{
+    align:float;
+    width : 250px;
+}
+#Searchbox{
+    float: right;
+    width: 350px;
+    height:22px;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-size-adjust: 100%;
+    text-align: start;
+    border: 1px solid rgba(40, 39, 39, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Searchbox::placeholder{
+    
+}
